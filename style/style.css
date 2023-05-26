@@ -190,6 +190,14 @@ article p{
     margin: auto
 }
 
+.sub-section h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    color: azure;
+    margin-top: 60px;
+}
+
 hr .solid{
     border-top: 3px solid azure;
     top: 30px;
