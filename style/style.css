@@ -178,6 +178,16 @@ article p{
     text-transform: uppercase;
     color: azure;
     margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.sub-section h2::after{
+    content: "";
+    height: 2px;
+    width: 155px;
+    background-color: azure;
+    display: block;
+    margin: auto
 }
 
 hr .solid{
