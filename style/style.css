@@ -159,6 +159,15 @@ content{
     line-height: 1.4;
 }
 
+content::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: azure;
+    display: block;
+    margin-top: 50px;
+}
+
 article p{
     font-size: 20px;
     color: azure;
@@ -183,7 +192,7 @@ article p{
 
 .sub-section h2::after{
     content: "";
-    height: 2px;
+    height: 1px;
     width: 155px;
     background-color: azure;
     display: block;
@@ -196,11 +205,6 @@ article p{
     font-weight: 500;
     color: azure;
     margin-top: 60px;
-}
-
-hr .solid{
-    border-top: 3px solid azure;
-    top: 30px;
 }
 
 .skills{
